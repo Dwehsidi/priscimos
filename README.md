@@ -42,7 +42,7 @@ The quote form appears on the home page and on each service page. Its "Service n
 ### Option B: GitHub Pages (current live setup)
 The repo deploys `site/` automatically via `.github/workflows/pages.yml` on every push to `main`.
 - Live at **https://priscimosenterprise.net/** (custom domain via `site/CNAME`; DNS: four GitHub A records on the apex, `www` CNAME to `dwehsidi.github.io`). The old address https://dwehsidi.github.io/priscimos/ redirects there.
-- The quote form posts to FormSubmit (`https://formsubmit.co/ajax/info@priscimosenterprise.net`), since `quote.php` can't run on Pages. The **first** submission sends a one-time activation email to that inbox; click it, or quotes won't be delivered. To change the recipient, replace the address in the `action` of the four forms (`index.html` and the three service pages).
+- The quote form posts to FormSubmit (`https://formsubmit.co/info@priscimosenterprise.net`; the script switches to its `/ajax/` endpoint, and without JavaScript visitors are redirected to `thank-you.html` via the `_next` field), since `quote.php` can't run on Pages. The **first** submission sends a one-time activation email to that inbox; click it, or quotes won't be delivered. To change the recipient, replace the address in the `action` of the four forms (`index.html` and the three service pages).
 - `.htaccess` and `quote.php` are ignored on Pages, which is fine.
 
 ## After launch

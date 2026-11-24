@@ -214,7 +214,9 @@
 
       button.disabled = true;
       label.textContent = "Sending…";
-      fetch(form.action, {
+      // Without JavaScript the form posts normally and FormSubmit redirects to thank-you.html (_next).
+      // With JavaScript we use FormSubmit's AJAX endpoint so the visitor stays on the page.
+      fetch(form.action.replace("://formsubmit.co/", "://formsubmit.co/ajax/"), {
         method: "POST",
         body: new FormData(form),
         headers: { "Accept": "application/json" }
