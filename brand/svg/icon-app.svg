@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="t">
+  <title id="t">PEG Solutions icon</title>
+  <defs>
+    <linearGradient id="iccolorP-sweep" gradientUnits="userSpaceOnUse" x1="54" y1="0" x2="474" y2="0">
+      <stop offset="0" stop-color="#1D55D0"/>
+      <stop offset="0.38" stop-color="#4646A6"/>
+      <stop offset="0.66" stop-color="#74398A"/>
+      <stop offset="1" stop-color="#B4233C"/>
+    </linearGradient>
+    <linearGradient id="iccolorP-ribbon" gradientUnits="userSpaceOnUse" x1="114" y1="58" x2="474" y2="454">
+      <stop offset="0" stop-color="#5FAEF3"/>
+      <stop offset="0.45" stop-color="#78A6EC"/>
+      <stop offset="0.8" stop-color="#7E8ED9" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7E8ED9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="iccolorP-line1" gradientUnits="userSpaceOnUse" x1="176" y1="0" x2="343.7" y2="0">
+      <stop offset="0" stop-color="#1D55D0"/>
+      <stop offset="1" stop-color="#4646A6"/>
+    </linearGradient><clipPath id="iccolorP-band"><path d="M204,58 C124,104 54,196 60,294 C66,398 176,454 296,450 C376,447 436,404 474,344 C418,384 360,406 298,406 C190,408 116,360 112,282 C108,196 142,116 204,58 Z"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#FFFFFF"/>
+  <path d="M204,58 C124,104 54,196 60,294 C66,398 176,454 296,450 C376,447 436,404 474,344 C418,384 360,406 298,406 C190,408 116,360 112,282 C108,196 142,116 204,58 Z" fill="url(#iccolorP-sweep)"/>
+  <path d="M204,58 C152,106 90,196 88,288 C86,382 172,430 276,434 L276,380 150,300 198,70 Z" fill="url(#iccolorP-ribbon)" clip-path="url(#iccolorP-band)"/>
+  <path d="M176.9 356 177.5 353 180.8 351.8Q193.7 347.3 196.1 334.4L211.7 251Q215 234.5 218 217.25Q221 200 224.6 179Q226.7 166.7 215 162.2L212 161L212.6 158H278Q316.7 158 334.25 172.85Q351.8 187.7 351.8 212Q351.8 229.4 341.75 244.55Q331.7 259.7 311.45 268.85Q291.2 278 260.6 278H247.4Q245 290 242.45 304.55Q239.9 319.1 237.2 333.8Q235.1 347.6 248 352.1L251.6 353L251 356ZM248.6 272H259.7Q282.5 272 296.6 255.65Q310.7 239.3 310.7 210.5Q310.7 188 301.7 176Q292.7 164 275.9 164H268.7Q263.9 191 258.8 218Q253.7 245 248.6 272Z" fill="url(#iccolorP-line1)"/>
+</svg>
