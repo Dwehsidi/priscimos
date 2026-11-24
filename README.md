@@ -41,7 +41,7 @@ The quote form appears on the home page and on each service page. Its "Service n
 
 ### Option B: GitHub Pages (current live setup)
 The repo deploys `site/` automatically via `.github/workflows/pages.yml` on every push to `main`.
-- Live at **https://dwehsidi.github.io/peg-solutions-website/** until the custom domain is connected.
+- Live at **https://dwehsidi.github.io/priscimos/** until the custom domain is connected.
 - The quote form posts to FormSubmit (`https://formsubmit.co/ajax/info@priscimosenterprise.net`), since `quote.php` can't run on Pages. The **first** submission sends a one-time activation email to that inbox; click it, or quotes won't be delivered. To change the recipient, replace the address in the `action` of the four forms (`index.html` and the three service pages).
 - **Connecting priscimosenterprise.net:** move `CNAME.custom-domain` to `site/CNAME`, push, then at the registrar add A records for `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153`, plus a `www` CNAME to `dwehsidi.github.io`. Then tick "Enforce HTTPS" under Settings → Pages.
 - `.htaccess` and `quote.php` are ignored on Pages, which is fine.
