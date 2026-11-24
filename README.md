@@ -51,7 +51,7 @@ The repo deploys `site/` automatically via `.github/workflows/pages.yml` on ever
 - Business details are also in the structured data (`<script type="application/ld+json">`) on the home page, so search engines read them consistently.
 
 ## Editing notes
-- **Vehicle photo:** the "On the road" section shows a branded placeholder until you add a photo. Save a landscape photo of the client's vehicle as `site/assets/img/fleet.jpg` (about 1600×1200), then in `index.html` remove the comment marks around the `fleet.jpg` image line.
+- **Vehicle image:** the "On the road" section shows a branded illustration (`site/assets/img/fleet-illustration.svg`, flat style, not a photo). To use a real photo, save a landscape photo of the client's vehicle as `site/assets/img/fleet.jpg` (about 1600x1200) and change the `src` and `alt` of that image in `index.html`.
 - Colours and fonts are CSS variables at the top of `site/assets/css/styles.css`.
 - Phone, email and address appear on every page (header, footer, quote section); use find-and-replace across `site/`.
 - The quote form doesn't collect health information, and a note on the form asks people not to include any.
